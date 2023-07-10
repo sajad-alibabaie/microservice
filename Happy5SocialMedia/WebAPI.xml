@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Happy5SocialMedia</name>
+    </assembly>
+    <members>
+        <member name="M:Happy5SocialMedia.Controllers.SocialMediaController.ListUser">
+            <summary>
+            Get List Of USer
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Happy5SocialMedia.Controllers.SocialMediaController.GetUserSubordinates(System.Guid)">
+            <summary>
+            Get List Subordinates of User
+            </summary>
+            <param name="idUser"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Happy5SocialMedia.Controllers.SocialMediaController.GetUserParent(System.Guid)">
+            <summary>
+            Get List Parent Of User
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Happy5SocialMedia.Controllers.SocialMediaController.AddUser(Happy5SocialMedia.DTO.AccountUserCreateRequest)">
+            <summary>
+            Add User
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Happy5SocialMedia.Controllers.SocialMediaController.GetUserConversation(System.Guid)">
+            <summary>
+            Get Conversation User
+            </summary>
+            <param name="idUser"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Happy5SocialMedia.Controllers.SocialMediaController.GetConversationMessages(System.Guid)">
+            <summary>
+            Read Message User
+            </summary>
+            <param name="idConversation"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
